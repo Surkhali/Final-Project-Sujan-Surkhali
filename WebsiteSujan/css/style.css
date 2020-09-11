@@ -360,3 +360,16 @@ h3{
 	cursor: pointer;
 
 }
+
+.foot{
+	position: absolute;
+	bottom: -270px;
+	width: 100%;
+	left: 0px;
+	
+
+}
+
+.foot1{
+	bottom: 100px;
+}
