@@ -23,49 +23,66 @@
 		</nav>
 
 
+<div class="bk">
 	<div class="contact-form">
 		<br>
 		<br>
-		<h1>Contact us</h1>
-		<div class="txtb">
-			<label>Full Name :</label>
-			<input type="text" name="" value="" placeholder="Enter Your Name">
-		</div>
+		<h1> Contact US</h1>
+    <div id="errormsg">
+    </div>
+    <form name="myform" id="myform" action="index.html" method="post"onsubmit="return validation()">
+      <div class="input-field">
+    <input type="text" placeholder="Name" name="name">
+    </div>
+    <div class="input-field">
+    <input type="email" placeholder="youremail@example.com" name="email" required="required">
+    </div>
+    <div class="input-field">
+    <input type="text" placeholder="Address" name="address">
+    </div>
+    <div class="input-field">
+    <input type="text" placeholder="Phone-Number" name="phoneno">
+    </div>
+    <div class="input-field">
+    <textarea id="message" placeholder="Message"></textarea>
+</div>
+<div class="btn">
+  <input type="submit" onsubmit="return submit()" >
+</div>
+</div>
+ </form>
+</div>
 
-		<div class="txtb">
-			<label>Email :</label>
-			<input type="text" name="" value="" placeholder="Enter Your Email">
-		</div>
-
-		<div class="txtb">
-			<label>Phone Number :</label>
-			<input type="text" name="" value="" placeholder="Enter Your Phone Number">
-		</div>
-
-		<div class="txtb">
-			<label>Message :</label>
-			<textarea></textarea>
-		</div>
-		<a class="bttn">Send</a>
-	</div>
 	<div class="foot">
 	<div class = "footer">
-      Copyright &copy; 2020 CyberPunk 2077<br/>
-      <i>cyberpunk2077@fanpage.com</i>
-      <p align="left" style="Top:0px; left:0px;"> <a href="#"> Facebook</a></p>
-      <p align="left" style="Top:0px; left:0px;"> <a href="#"> Instagram</a></p>
-      <p align="left" style="Top:0px; left:0px;"> <a href="#"> Twitter</a></p>
+    <br>
+    <j>NAUGHTY DOG, LLC. <br>
+    Privacy Policy | Terms of Use</j><br> 
+      <t>Copyright &copy; 2020 Sony Interactive Entertainment LLC.</t><br/>
+      
+      <p align="left" style="top:0px; position: relative; left:5px;"> Facebook </p> 
+      <p align="left" style="top:-25px; position: relative; left:90px;">
+      <a href="https://www.facebook.com/" target="_blank"> <img src="images/fb.png" width="30px"> </a> </p>
+      
+      <p align="left" style="top:0px; position: relative; left:5px;"> Instagram </p> 
+      <p align="left" style="top:-25px; position: relative; left:90px;">
+      <a href="https://www.instagram.com/" target="_blank"> <img src="images/in.png" width="30px"> </a> </p>
 
-        <a href="index.html">HOME</a>
-        <a href="aboutus.html">ABOUT US</a>
-        <a href="gallery.html">GALLERY</a>
-        <a href="#">BLOG</a>
-        <a href="contact.html">CONTACT</a>
+      <p align="left" style="top:0px; position: relative; left:5px;"> Twitter </p> 
+      <p align="left" style="top:-25px; position: relative; left:90px;">
+      <a href="https://twitter.com/" target="_blank"> <img src="images/tw.png" width="30px"> </a> </p>
+      
+
+        <a href="index.html">|HOME|</a>
+        <a href="#">|ABOUT US|</a>
+        <a href="gallery.html">|GALLERY|</a>
+        <a href="blog.html">|BLOG|</a>
+        <a href="contact.html">|CONTACT|</a>
   </div>
 </div>
 
+<script src="js/script1.js"></script>
 
-	</div>
-
+	
 </body>
 </html>
