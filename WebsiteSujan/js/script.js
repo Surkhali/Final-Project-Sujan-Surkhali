@@ -48,7 +48,7 @@ var phoneno = document.myform.phoneno.value;
 
     }
 
-  else if(address==""){
+  else if(Phoneno==""){
 
       document.getElementById("errormsg").innerHTML="Phoneno is Required";
 
@@ -58,7 +58,7 @@ var phoneno = document.myform.phoneno.value;
 
     }
 
-    alert('WELCOME TO GAMING WORLD.')
+    alert('WELCOME TO GAMING WORLD.');
 
 return true;
 }
